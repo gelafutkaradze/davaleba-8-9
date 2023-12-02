@@ -1,0 +1,645 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+.mainSection{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+}
+
+.mainFlexParent{
+    /* overflow: hidden; */
+    position: relative;
+    display: flex;
+}
+
+
+.bannerParent{
+    background: #F3DE6D;
+    position: absolute;
+    left: 300px;
+    width: 312px;
+    height: 716px;
+}
+
+
+.bannerText{
+    gap: 16px;
+    flex-direction: column;
+    display: flex;
+    left: 18px;
+    position:absolute;
+    top: 32px;
+    height: 152px;
+    width: 276px;
+}
+
+
+.bannerp{
+    line-height: 20px;
+    font-size: 14px;
+    color: #BE4646;
+    text-align: center;
+}
+
+
+
+.bannerSecondp{
+    line-height: 40px;
+    width: 268px;
+    height: 40px;
+    font-size: 37px;
+    text-align: center;
+}
+
+
+.bannerThirdp{
+    text-align: center;
+    color: #475156;
+    font-size: 16px;
+    line-height: 24px;
+   width: 248px;
+   height: 24px;
+}
+
+
+.bannerFlexText{
+    width:  276px;
+    height:  32px;
+    gap: 8px;
+    justify-content: center;
+    display: flex;
+}
+
+.flexTextp{
+    width: 95px;
+    height: 20px;
+
+    font-size: 14px;
+    color:#191C1F;
+    width: 95px;
+    height: 20px;
+font-size: 14px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+}
+
+
+.flexTextSecondp{
+    font-size: 14px;
+width:  173px;
+height:  32px;
+padding-top:6px;
+padding-right:12px;
+padding-bottom:6px;
+padding-left:12px;
+border-radius: 2px;
+gap: 10px;
+color: black;
+background-color: #fff;
+}
+
+
+
+.shop{
+    position: absolute;
+    border: none;
+    background-color: #FA8232;
+    justify-content: center;
+    display: flex;
+width: 191px;
+height: 56px;
+top: 216px;
+left: 60px;
+padding-left: 32px;
+padding-right:32px;
+border-radius: 3px;
+gap: 12px;
+}
+
+
+.shop p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 56px;
+}
+
+.shop i{
+    color: white;
+    width: 16.5px;
+top: 12px;
+left: 3.75px;
+border: 2px;
+    line-height: 56px;
+}
+
+
+
+.banner-img-parent img{
+    position: absolute;
+    bottom: 0;
+}
+
+
+.productParent{
+    left: 636px;
+    width: 984px;
+    align-items: flex-start;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+.nav-parent{
+    display: flex;
+    width: 984px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-parent p{
+    left: 100px;
+    color: var(--gray-900, #191C1F);
+font-family: Public Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+}
+
+
+
+.nav-icon-parent{
+    align-items: center;
+    display: flex;
+}
+
+
+.nav-icon-parent p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #FA8232;
+}
+
+.nav-icon-parent i{
+    color: #FA8232;
+}
+
+.nav{
+    line-height: 30px;
+display: flex;
+padding: 8px;
+align-items: flex-start;
+gap: 10px;
+}
+
+.arrowicon{
+    padding-left: 14px;
+}
+
+
+.all:active{
+    border-bottom: 2px solid orange;
+}
+
+
+/* prducts */
+  
+  .container {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    row-gap: 16px;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  
+  .container-product {
+    border-Radius:  3px;
+    width: 234px;
+    height: 315px;
+    border: 1px solid  #E4E7E9;
+  }
+  
+
+
+  
+  .container-category-div {
+    padding-bottom: 5px;
+    padding-right: 20px;
+    position: absolute;
+    background-color : #EE5858;
+    top : 5px;
+    right:150px;
+  }
+  .container-category-text{
+        padding-left: 25px;
+        padding-top: 5px;
+        color: #fff
+  }
+
+  .container-img{
+    display: flex;
+    gap: 16px;
+    width: 100%;
+    height: 202px;
+    object-Fit: contain;
+    margin-top: 15px;
+  }
+
+  
+
+
+  .pro-p{
+    overflow: hidden;
+    height: 50px;
+    padding: 16px;
+  }
+
+
+  .container-price-text{
+    left: 17px;
+    bottom: 5px;
+    color: blue;
+    position: absolute;
+  }
+
+
+  /* pirveli hover */
+
+   .hover{
+    display: flex;
+    /* width: 100%;
+    height: 100%; */
+    opacity: 0;
+    position: absolute;
+    left: 54px;
+    top: 184px;
+    color: red;
+    z-index: 2;
+  } 
+
+  .hover div{
+
+    color: grey;
+    background-color: white;
+    border: 1px solid gray;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+
+  .hover div i{
+    position: absolute;
+  }
+
+
+  .hover:hover {
+    opacity: 1;
+    position: absolute;
+    left: 54px;
+    top: 184px;
+    color: red;
+    z-index: 2;
+  }  
+
+
+
+
+/* meore hover */
+
+
+  .hoverr{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    left: 300px;
+    top: 184px;
+    color: red;
+    z-index: 2;
+  } 
+
+  .hoverr div{
+
+    color: grey;
+    background-color: white;
+    border: 1px solid gray;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+
+  .hoverr div i{
+    position: absolute;
+  }
+
+
+  .hoverr:hover {
+    opacity: 1;
+    position: absolute;
+    left: 300px;
+    top: 184px;
+    color: red;
+    z-index: 2;
+  }  
+
+
+
+
+/* 
+mesame hoveri */
+
+
+
+
+.hoverrr{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    left: 550px;
+    top: 184px;
+    color: red;
+    z-index: 2;
+  } 
+
+  .hoverrr div{
+
+    color: grey;
+    background-color: white;
+    border: 1px solid gray;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+
+  .hoverrr div i{
+    position: absolute;
+  }
+
+
+  .hoverrr:hover {
+    opacity: 1;
+    position: absolute;
+    left: 550px;
+    top: 184px;
+    color: red;
+    z-index: 2;
+  }  
+
+
+
+  /* meotxe hover */
+
+
+
+  .hoverrrr{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    left: 800px;
+    top: 184px;
+    color: red;
+    z-index: 2;
+  } 
+
+  .hoverrrr div{
+
+    color: grey;
+    background-color: white;
+    border: 1px solid gray;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+
+  .hoverrrr div i{
+    position: absolute;
+  }
+
+
+  .hoverrrr:hover {
+    opacity: 1;
+    position: absolute;
+    left: 800px;
+    top: 184px;
+    color: red;
+    z-index: 2;
+  }  
+  
+
+
+
+
+
+
+  /* meore seqciis hoveri */
+
+
+
+  .hoverrrrr{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    left: 54px;
+    top: 520px;
+    color: red;
+    z-index: 2;
+  } 
+
+  .hoverrrrr div{
+
+    color: grey;
+    background-color: white;
+    border: 1px solid gray;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+
+  .hoverrrrr div i{
+    position: absolute;
+  }
+
+
+  .hoverrrrr:hover {
+    opacity: 1;
+    position: absolute;
+    left: 54px;
+    top: 520px;
+    color: red;
+    z-index: 2;
+  }  
+
+
+
+
+/* meore hover */
+
+
+  .hoverrrrrr{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    left: 300px;
+    top: 520px;
+    color: red;
+    z-index: 2;
+  } 
+
+  .hoverrrrrr div{
+
+    color: grey;
+    background-color: white;
+    border: 1px solid gray;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+
+  .hoverrrrrr div i{
+    position: absolute;
+  }
+
+
+  .hoverrrrrr:hover {
+    opacity: 1;
+    position: absolute;
+    left: 300px;
+    top: 520px;
+    color: red;
+    z-index: 2;
+  }  
+
+
+
+
+/* 
+mesame hoveri */
+
+
+
+
+.hoverrrrrrr{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    left: 550px;
+    top: 520px;
+    color: red;
+    z-index: 2;
+  } 
+
+  .hoverrrrrrr div{
+
+    color: grey;
+    background-color: white;
+    border: 1px solid gray;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+
+  .hoverrrrrrr div i{
+    position: absolute;
+  }
+
+
+  .hoverrrrrrr:hover {
+    opacity: 1;
+    position: absolute;
+    left: 550px;
+    top: 520px;
+    color: red;
+    z-index: 2;
+  }  
+
+
+
+  /* meotxe hover */
+
+
+
+  .hoverrrrrrrr{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    left: 800px;
+    top: 520px;
+    color: red;
+    z-index: 2;
+  } 
+
+  .hoverrrrrrrr div{
+
+    color: grey;
+    background-color: white;
+    border: 1px solid gray;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+
+  .hoverrrrrrrr div i{
+    position: absolute;
+  }
+
+
+  .hoverrrrrrrr:hover {
+    opacity: 1;
+    position: absolute;
+    left: 800px;
+    top: 520px;
+    color: red;
+    z-index: 2;
+  }  
+
+
